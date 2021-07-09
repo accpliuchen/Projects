@@ -10,6 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
 
+        <module>EurekaClient</module>
+        <module>EureKa</module>
+        <module>ErueKa</module>
+        <module>EureKaClientService</module>
     </modules>
 
 
