@@ -12,14 +12,9 @@
 
         <module>EurekaClient</module>
         <module>EureKa</module>
-        <module>ErueKa</module>
         <module>EureKaClientService</module>
+        <module>DevTools</module>
     </modules>
 
-
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
 
 </project>

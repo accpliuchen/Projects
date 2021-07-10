@@ -1,8 +1,10 @@
 package com.test;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -20,7 +22,9 @@ import java.util.Random;
 @EnableEurekaServer
 public class EurekaServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServerApplication.class, args);
+        //System.out.println("=============");
+        //SpringApplication.run(EurekaServerApplication.class, args);
+        new SpringApplicationBuilder(EurekaServerApplication.class).bannerMode(Banner.Mode.OFF).run(args);
     }
 }
 
