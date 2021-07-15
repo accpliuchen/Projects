@@ -8,10 +8,10 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.javatpoint</groupId>
-    <artifactId>Spring-boot-devtools-example</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>Spring-boot-json-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-devtools-example</name>
+    <name>spring-boot-json-example</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -24,11 +24,19 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.16</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
