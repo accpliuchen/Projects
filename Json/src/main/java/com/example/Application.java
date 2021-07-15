@@ -20,7 +20,7 @@ public class Application {
 
     @GetMapping(value = "/user/json/{userId}")
     public User getUserInfo(@PathVariable("userId") String userId) {
-        User user = new User("Java技术栈", 18);
+        User user = new User("Java Stack", 18);
         user.setId(Long.valueOf(userId));
         return user;
     }
