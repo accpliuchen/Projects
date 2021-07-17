@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DevTools" />
+        <module name="XML" />
         <module name="EurekaClient" />
         <module name="EureKaClientService" />
-        <module name="DevTools" />
         <module name="Json" />
         <module name="EureKa" />
+        <module name="SSL" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +25,8 @@
       <module name="Projects" target="1.5" />
       <module name="spring-boot-devtools-example" target="1.8" />
       <module name="spring-cloud-eureka-service" target="1.5" />
+      <module name="SSL" target="1.8" />
+      <module name="XML" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +37,7 @@
       <module name="Eureka" options="-parameters" />
       <module name="EurekaClient" options="-parameters" />
       <module name="Json" options="-parameters" />
+      <module name="SSL" options="" />
       <module name="spring-boot-devtools-example" options="-parameters" />
     </option>
   </component>
