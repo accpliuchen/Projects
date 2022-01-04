@@ -17,6 +17,7 @@
         <module name="SSL" />
         <module name="rest-producer" />
         <module name="rest-consumer" />
+        <module name="SpringBootHyStrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +34,7 @@
       <module name="rest-producer" target="1.8" />
       <module name="spring-boot-devtools-example" target="1.8" />
       <module name="spring-cloud-eureka-service" target="1.5" />
+      <module name="SpringBootHyStrix" target="1.8" />
       <module name="SSL" target="1.8" />
       <module name="XML" target="1.8" />
     </bytecodeTargetLevel>
