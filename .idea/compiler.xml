@@ -9,10 +9,14 @@
         <module name="DevTools" />
         <module name="XML" />
         <module name="EurekaClient" />
+        <module name="Hystrix" />
         <module name="EureKaClientService" />
         <module name="Json" />
+        <module name="Feign-rest-consumer" />
         <module name="EureKa" />
         <module name="SSL" />
+        <module name="rest-producer" />
+        <module name="rest-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,8 +25,12 @@
       <module name="EureKa" target="1.8" />
       <module name="EurekaClient" target="8" />
       <module name="EureKaClientService" target="8" />
+      <module name="Feign-rest-consumer" target="1.8" />
+      <module name="Hystrix" target="1.8" />
       <module name="Json" target="1.8" />
       <module name="Projects" target="1.5" />
+      <module name="rest-consumer" target="1.8" />
+      <module name="rest-producer" target="1.8" />
       <module name="spring-boot-devtools-example" target="1.8" />
       <module name="spring-cloud-eureka-service" target="1.5" />
       <module name="SSL" target="1.8" />
@@ -36,8 +44,10 @@
       <module name="EureKaClientService" options="-parameters" />
       <module name="Eureka" options="-parameters" />
       <module name="EurekaClient" options="-parameters" />
+      <module name="Hystrix" options="" />
       <module name="Json" options="-parameters" />
       <module name="SSL" options="" />
+      <module name="rest-producer" options="" />
       <module name="spring-boot-devtools-example" options="-parameters" />
     </option>
   </component>

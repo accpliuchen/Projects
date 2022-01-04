@@ -17,6 +17,10 @@
         <module>Json</module>
         <module>SSL</module>
         <module>XML</module>
+        <module>Hystrix</module>
+        <module>Feign-rest-consumer</module>
+        <module>rest-producer</module>
+        <module>rest-consumer</module>
     </modules>
 
 

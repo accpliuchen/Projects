@@ -6,10 +6,14 @@
       <module fileurl="file://$PROJECT_DIR$/EureKa/EureKa.iml" filepath="$PROJECT_DIR$/EureKa/EureKa.iml" />
       <module fileurl="file://$PROJECT_DIR$/EureKaClientService/EureKaClientService.iml" filepath="$PROJECT_DIR$/EureKaClientService/EureKaClientService.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaClient/EurekaClient.iml" filepath="$PROJECT_DIR$/EurekaClient/EurekaClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Feign-rest-consumer/Feign-rest-consumer.iml" filepath="$PROJECT_DIR$/Feign-rest-consumer/Feign-rest-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hystrix/Hystrix.iml" filepath="$PROJECT_DIR$/Hystrix/Hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/Json/Json.iml" filepath="$PROJECT_DIR$/Json/Json.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Projects.iml" filepath="$PROJECT_DIR$/.idea/Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/SSL/SSL.iml" filepath="$PROJECT_DIR$/SSL/SSL.iml" />
       <module fileurl="file://$PROJECT_DIR$/XML/XML.iml" filepath="$PROJECT_DIR$/XML/XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-consumer/rest-consumer.iml" filepath="$PROJECT_DIR$/rest-consumer/rest-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-producer/rest-producer.iml" filepath="$PROJECT_DIR$/rest-producer/rest-producer.iml" />
     </modules>
   </component>
 </project>
